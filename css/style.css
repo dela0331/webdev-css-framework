@@ -116,6 +116,37 @@ meter {
   display: none;
 }
 
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+.button-neutral {
+  background-color: #000000;
+  color: white;
+  padding: 6px, 20px, 6px, 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 6px 6px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.button-neutral:hover {
+  background-color: #2f2f2f;
+  color: rgb(226, 226, 226);
+}
+
+.button-neutral:active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
 * {
   font-family: "Nunito Sans", sans-serif;
   font-size: 100%;
@@ -131,6 +162,8 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  padding: 6px, 60px, 6px, 60px;
+  margin: 20px, 0, 60px, 0;
 }
 
 h2 {
@@ -161,77 +194,6 @@ h6 {
 p {
   font-size: 16px;
   font-weight: 400;
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-}
-
-ol {
-  padding-left: 1.5rem;
-}
-
-body {
-  padding: 6px, 60px, 6px, 60px;
-  margin: 0, 200px, 0, 200px;
-}
-
-h1 {
-  padding: 6px, 60px, 6px, 60px;
-  margin: 20px, 0, 60px, 0;
-}
-
-h2 {
-  padding: 6px, 60px, 6px, 60px;
-  margin: 20px, 0, 60px, 0;
-}
-
-h3 {
-  padding: 6px, 40px, 6px, 40px;
-  margin: 20px, 0, 40px, 0;
-}
-
-h4 {
-  padding: 6px, 40px, 6px, 40px;
-  margin: 20px, 0, 40px, 0;
-}
-
-h5 {
-  padding: 6px, 40px, 6px, 40px;
-  margin: 20px, 0, 40px, 0;
-}
-
-h6 {
-  padding: 6px, 40px, 6px, 40px;
-  margin: 20px, 0, 40px, 0;
-}
-
-p {
-  padding: 6px, 20px, 6px, 20px;
-  margin: 20px, 0, 20px, 0;
-}
-
-.button-neutral {
-  background-color: #000000;
-  color: white;
-  padding: 6px, 20px, 6px, 20px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin: 6px 6px;
-  cursor: pointer;
-  transition: 0.15s;
-}
-
-.button-neutral:hover {
-  background-color: #2f2f2f;
-  color: rgb(226, 226, 226);
-}
-
-.button-neutral:active {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=style.css.map */
