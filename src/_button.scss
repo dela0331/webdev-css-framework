@@ -7,9 +7,9 @@
     text-align: center;
     text-decoration: none;
     display: block;
-    margin: 6px 6px;
     cursor: pointer;
     transition:0.15s;
+    margin-bottom:10px;
 }
 
 .button-neutral:hover {
@@ -18,6 +18,50 @@
 }
 
 .button-neutral:active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.button-yes{
+    background-color: #00840b;
+    color: white;
+    padding: variable.$padding-space-small;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition:0.15s;
+    margin-bottom:10px;
+}
+
+.button-yes:hover {
+    background-color: #00b652;
+    color: rgb(226, 226, 226);
+}
+
+.button-yes:active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.button-no{
+    background-color: #c22121;
+    color: white;
+    padding: variable.$padding-space-small;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition:0.15s;
+    margin-bottom:10px;
+}
+
+.button-no:hover {
+    background-color: #ff3636;
+    color: rgb(226, 226, 226);
+}
+
+.button-no:active {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }

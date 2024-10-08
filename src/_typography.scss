@@ -12,16 +12,12 @@
 body {
   font-family: variable.$font-family-base;
   font-size: variable.$font-size-base;
-  padding: variable.$padding-space-large;
-  margin: variable.$margin-space-body;
 }
 
 // Heading styles
 h1 {
   font-size: variable.$font-size-h1;       
   font-weight: variable.$font-weight-bold; 
-  padding: variable.$padding-space-large;
-  margin: variable.$margin-space-large;
 }
 
 h2 {

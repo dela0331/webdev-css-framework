@@ -125,16 +125,108 @@ ol {
   padding-left: 1.5rem;
 }
 
+body {
+  padding: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h1 {
+  padding-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h2 {
+  padding-bottom: 60px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+
+h3 {
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+
+h4 {
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+
+h5 {
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+
+h6 {
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-left: 40px;
+}
+
+p {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+ol {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+ul {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+table {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+button {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+
+tr:hover {
+  background-color: #eaeaea;
+}
+
 .button-neutral {
   background-color: #000000;
   color: white;
-  padding: 6px, 20px, 6px, 20px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: block;
-  margin: 6px 6px;
   cursor: pointer;
   transition: 0.15s;
+  margin-bottom: 10px;
 }
 
 .button-neutral:hover {
@@ -147,6 +239,50 @@ ol {
   color: rgb(0, 0, 0);
 }
 
+.button-yes {
+  background-color: #00840b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  transition: 0.15s;
+  margin-bottom: 10px;
+}
+
+.button-yes:hover {
+  background-color: #00b652;
+  color: rgb(226, 226, 226);
+}
+
+.button-yes:active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.button-no {
+  background-color: #c22121;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  transition: 0.15s;
+  margin-bottom: 10px;
+}
+
+.button-no:hover {
+  background-color: #ff3636;
+  color: rgb(226, 226, 226);
+}
+
+.button-no:active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
 * {
   font-family: "Nunito Sans", sans-serif;
   font-size: 100%;
@@ -155,15 +291,11 @@ ol {
 body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
-  padding: 6px, 60px, 6px, 60px;
-  margin: 0, 200px, 0, 200px;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 700;
-  padding: 6px, 60px, 6px, 60px;
-  margin: 20px, 0, 60px, 0;
 }
 
 h2 {

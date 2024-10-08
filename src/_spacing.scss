@@ -1,44 +1,77 @@
-// @use 'variable';
+@use 'variable';
 
 
-// //Body
-// body {
-//     padding: variable.$padding-space-large;
-//     margin: variable.$margin-space-body;
-//   }
+//Body
+body {
+    padding: variable.$padding-space-large;
+    margin-left: variable.$margin-space-body;
+    margin-right: variable.$margin-space-body;
+  }
   
-//   // Heading styles
-//   h1 {
-//     padding: variable.$padding-space-large;
-//     margin: variable.$margin-space-large;
-//   }
+  // Heading styles
+  h1 {
+    padding-bottom: variable.$padding-space-large;
+    margin-left: variable.$margin-space-large;
+    margin-right: variable.$margin-space-large;
+  }
    
-//   h2 {
-//     padding: variable.$padding-space-large;
-//     margin: variable.$margin-space-large;
-//   }
+  h2 {
+    padding-bottom: variable.$padding-space-large;
+    margin-left: variable.$margin-space-medium;
+    margin-left: variable.$margin-space-medium;
+  }
   
-//   h3 {
-//     padding: variable.$padding-space-medium;
-//     margin: variable.$margin-space-medium;
-//   }
+  h3 {
+    padding-bottom: variable.$padding-space-medium;
+    margin-left: variable.$margin-space-medium;
+    margin-left: variable.$margin-space-medium;
+  }
   
-//   h4 {
-//     padding: variable.$padding-space-medium;
-//     margin: variable.$margin-space-medium;
-//   }
+  h4 {
+    padding-bottom: variable.$padding-space-medium;
+    margin-left: variable.$margin-space-medium;
+    margin-left: variable.$margin-space-medium;
+  }
   
-//   h5 {
-//     padding: variable.$padding-space-medium;
-//     margin: variable.$margin-space-medium;
-//   }
+  h5 {
+    padding-bottom: variable.$padding-space-medium;
+    margin-left: variable.$margin-space-medium;
+    margin-left: variable.$margin-space-medium;
+  }
   
-//   h6 {
-//     padding: variable.$padding-space-medium;
-//     margin: variable.$margin-space-medium;
-//   }
+  h6 {
+    padding-bottom: variable.$padding-space-medium;
+    margin-left: variable.$margin-space-medium;
+    margin-left: variable.$margin-space-medium;
+  }
   
-//   p {
-//     padding: variable.$padding-space-small;
-//     margin: variable.$margin-space-small;
-//   }
+  p {
+    padding-bottom: variable.$padding-space-small;
+    margin-left: variable.$margin-space-small;
+    margin-left: variable.$margin-space-small;
+  }
+
+  ol {
+    padding-bottom: variable.$padding-space-small;
+    margin-left: variable.$margin-space-small;
+    margin-left: variable.$margin-space-small;
+  }
+
+  ul {
+    padding-bottom: variable.$padding-space-small;
+    margin-left: variable.$margin-space-small;
+    margin-left: variable.$margin-space-small;
+  }
+
+  table{
+    padding-bottom: variable.$padding-space-small;
+    margin-left: variable.$margin-space-small;
+    margin-left: variable.$margin-space-small;
+  }
+
+  
+  button{
+    padding-bottom: variable.$padding-space-small;
+    margin-left: variable.$margin-space-small;
+    margin-left: variable.$margin-space-small;
+  }
