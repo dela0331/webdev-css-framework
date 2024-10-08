@@ -1,0 +1,12 @@
+@use 'variable';
+
+// Unordered list styling
+ul {
+  list-style-type: variable.$list-style-type;
+  padding-left: variable.$list-padding;
+}
+
+// Ordered list styling
+ol {
+  padding-left: variable.$list-padding;
+}

@@ -1,0 +1,51 @@
+@use 'variable';
+
+// Import Google Fonts for Nunito Sans
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+  font-family: variable.$font-family-base; 
+  font-size: 100%; 
+}
+
+// Body and base font settings
+body {
+  font-family: variable.$font-family-base;
+  font-size: variable.$font-size-base;
+}
+
+// Heading styles
+h1 {
+  font-size: variable.$font-size-h1;       
+  font-weight: variable.$font-weight-bold; 
+}
+
+h2 {
+  font-size: variable.$font-size-h2;       
+  font-weight: variable.$font-weight-bold; 
+}
+
+h3 {
+  font-size: variable.$font-size-h3;       
+  font-weight: variable.$font-weight-normal;
+}
+
+h4 {
+  font-size: variable.$font-size-h4;       
+  font-weight: variable.$font-weight-normal; 
+}
+
+h5 {
+  font-size: variable.$font-size-h5;      
+  font-weight: variable.$font-weight-light; 
+}
+
+h6 {
+  font-size: variable.$font-size-h6;       
+  font-weight: variable.$font-weight-light; 
+}
+
+p {
+  font-size: variable.$font-size-base;     
+  font-weight: variable.$font-weight-normal;
+}

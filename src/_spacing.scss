@@ -1,0 +1,44 @@
+@use 'variable';
+
+
+//Body
+body {
+    padding: variable.$padding-space-large;
+    margin: variable.$margin-space-body;
+  }
+  
+  // Heading styles
+  h1 {
+    padding: variable.$padding-space-large;
+    margin: variable.$margin-space-large;
+  }
+   
+  h2 {
+    padding: variable.$padding-space-large;
+    margin: variable.$margin-space-large;
+  }
+  
+  h3 {
+    padding: variable.$padding-space-medium;
+    margin: variable.$margin-space-medium;
+  }
+  
+  h4 {
+    padding: variable.$padding-space-medium;
+    margin: variable.$margin-space-medium;
+  }
+  
+  h5 {
+    padding: variable.$padding-space-medium;
+    margin: variable.$margin-space-medium;
+  }
+  
+  h6 {
+    padding: variable.$padding-space-medium;
+    margin: variable.$margin-space-medium;
+  }
+  
+  p {
+    padding: variable.$padding-space-small;
+    margin: variable.$margin-space-small;
+  }

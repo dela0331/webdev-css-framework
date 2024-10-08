@@ -1,0 +1,23 @@
+@use 'variable';
+
+.button-neutral{
+    background-color: #000000;
+    color: white;
+    padding: variable.$padding-space-small;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 6px 6px;
+    cursor: pointer;
+    transition:0.15s;
+}
+
+.button-neutral:hover {
+    background-color: #2f2f2f;
+    color: rgb(226, 226, 226);
+}
+
+.button-neutral:active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
