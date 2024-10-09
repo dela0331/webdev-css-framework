@@ -30,3 +30,23 @@ $margin-space-small: 20px;
 $margin-space-medium: 40px;
 $margin-space-large: 60px;
 
+//Border
+$border-default-color: #333;
+$border-dashed-color: #aaa;
+$border-width: 1px;
+$border-radius: 4px;
+$border-sm: 0.5px;
+$border-lg: 5px;
+$border-radius-sm: 2px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+//Input
+$input-bg-color: #fff;
+$input-border-color: #000;
+$input-focus-border: darken($input-border-color, 15%);
+$input-hover-border: lighten($input-border-color, 10%);
+$input-border-radius: 5px;
+$input-font-size: 16px;
+$input-padding: 10px;
+$input-full-width: 100%;
