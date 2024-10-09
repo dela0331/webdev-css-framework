@@ -1,13 +1,4 @@
-@use 'variable';
-
-$input-bg-color: #fff;
-$input-border-color: #000;
-$input-border-radius: 5px;
-$input-font-size: 16px;
-$input-padding: 10px;
-$input-focus-border: darken($input-border-color, 15%);
-$input-hover-border: lighten($input-border-color, 10%);
-$input-full-width: 100%;
+@use './variable'; // Correct relative path to _variable.scss
 
 input[type="text"],
 input[type="email"],
@@ -15,32 +6,32 @@ input[type="password"],
 input[type="number"],
 input[type="date"],
 textarea {
-  background-color: $input-bg-color;
-  border: 1px solid $input-border-color;
-  border-radius: $input-border-radius;
-  font-size: $input-font-size;
-  padding: $input-padding;
-  width: $input-full-width;
+  background-color: variable.$input-bg-color;
+  border: 1px solid variable.$input-border-color;
+  border-radius: variable.$input-border-radius;
+  font-size: variable.$input-font-size;
+  padding: variable.$input-padding;
+  width: variable.$input-full-width;
   box-sizing: border-box;
   transition: border-color 0.3s;
 
   &:focus {
-    border-color: $input-focus-border;
+    border-color: variable.$input-focus-border;
     outline: none;
   }
 
   &:hover {
-    border-color: $input-hover-border;
+    border-color: variable.$input-hover-border;
   }
 }
 
 .select {
-  background-color: $input-bg-color;
-  border: 1px solid $input-border-color;
-  border-radius: $input-border-radius;
-  padding: $input-padding;
-  font-size: $input-font-size;
-  width: $input-full-width;
+  background-color: variable.$input-bg-color;
+  border: 1px solid variable.$input-border-color;
+  border-radius: variable.$input-border-radius;
+  padding: variable.$input-padding;
+  font-size: variable.$input-font-size;
+  width: variable.$input-full-width;
   box-sizing: border-box;
 }
 

@@ -328,4 +328,159 @@ p {
   font-weight: 400;
 }
 
+.border {
+  border: 1px solid #333;
+}
+
+.border-primary {
+  border: 2px solid blue;
+}
+
+.border-dashed {
+  border: 1px dashed #aaa;
+}
+
+.border-thick {
+  border: 3px solid #333;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-sm {
+  border-width: 0.5px;
+}
+
+.border-lg {
+  border-width: 5px;
+}
+
+.border-rounded {
+  border-radius: 12px;
+}
+
+.border-rounded-lg {
+  border-radius: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=date],
+textarea {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+textarea:focus {
+  border-color: hsl(0, 0%, -15%);
+  outline: none;
+}
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+input[type=number]:hover,
+input[type=date]:hover,
+textarea:hover {
+  border-color: rgb(25.5, 25.5, 25.5);
+}
+
+.select {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.input-success {
+  border-color: green;
+}
+
+.border-color-default {
+  border-color: #333;
+}
+
+.border-color-blue {
+  border-color: blue;
+}
+
+.border-color-red {
+  border-color: red;
+}
+
+.border-color-green {
+  border-color: green;
+}
+
+.border-color-gray {
+  border-color: gray;
+}
+
+.border-color-yellow {
+  border-color: yellow;
+}
+
+.border-width-1 {
+  border-width: 1px;
+}
+
+.border-width-2 {
+  border-width: 2px;
+}
+
+.border-width-3 {
+  border-width: 3px;
+}
+
+.border-width-0 {
+  border-width: 0;
+}
+
+.border-radius-sm {
+  border-radius: 2px;
+}
+
+.border-radius-md {
+  border-radius: 8px;
+}
+
+.border-radius-lg {
+  border-radius: 12px;
+}
+
+.border-radius-none {
+  border-radius: 0;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
 /*# sourceMappingURL=style.css.map */

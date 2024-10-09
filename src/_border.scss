@@ -1,12 +1,7 @@
-@use 'variable';
-
-$border-default-color: #333;
-$border-width: 1px;
-$border-radius: 4px;
-$border-dashed-color: #aaa;
+@use './variable'; // Correct relative path to _variable.scss
 
 .border {
-  border: $border-width solid $border-default-color;
+  border: variable.$border-width solid variable.$border-default-color;
 }
 
 .border-primary {
@@ -14,11 +9,11 @@ $border-dashed-color: #aaa;
 }
 
 .border-dashed {
-  border: $border-width dashed $border-dashed-color;
+  border: variable.$border-width dashed variable.$border-dashed-color;
 }
 
 .border-thick {
-  border: 3px solid $border-default-color;
+  border: 3px solid variable.$border-default-color;
 }
 
 .border-none {
@@ -26,15 +21,15 @@ $border-dashed-color: #aaa;
 }
 
 .border-sm {
-  border-width: 0.5px;
+  border-width: variable.$border-sm;
 }
 
 .border-lg {
-  border-width: 5px;
+  border-width: variable.$border-lg;
 }
 
 .border-rounded {
-  border-radius: 12px;
+  border-radius: variable.$border-radius-lg;
 }
 
 .border-rounded-lg {

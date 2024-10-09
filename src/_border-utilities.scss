@@ -1,73 +1,72 @@
-@use 'variable';
+@use './variable'; // Correct relative path to _variable.scss
 
 .border-color-default {
-    border-color: $border-default-color;
-  }
-  
-  .border-color-blue {
-    border-color: blue($color: #000000);
-  }
-  
-  .border-color-red {
-    border-color: red;
-  }
-  
-  .border-color-green {
-    border-color: green;
-  }
-  
-  .border-color-gray {
-    border-color: gray;
-  }
-  
-  .border-color-yellow {
-    border-color: yellow;
-  }
-  
-  // Border Width Utilities
-  .border-width-1 {
-    border-width: 1px;
-  }
-  
-  .border-width-2 {
-    border-width: 2px;
-  }
-  
-  .border-width-3 {
-    border-width: 3px;
-  }
-  
-  .border-width-0 {
-    border-width: 0;
-  }
-  
-  // Border Radius Utilities
-  .border-radius-sm {
-    border-radius: 2px;
-  }
-  
-  .border-radius-md {
-    border-radius: 8px;
-  }
-  
-  .border-radius-lg {
-    border-radius: 12px;
-  }
-  
-  .border-radius-none {
-    border-radius: 0;
-  }
-  
-  // Border Style Utilities
-  .border-solid {
-    border-style: solid;
-  }
-  
-  .border-dashed {
-    border-style: dashed;
-  }
-  
-  .border-dotted {
-    border-style: dotted;
-  }
-  
+  border-color: variable.$border-default-color;
+}
+
+.border-color-blue {
+  border-color: blue;
+}
+
+.border-color-red {
+  border-color: red;
+}
+
+.border-color-green {
+  border-color: green;
+}
+
+.border-color-gray {
+  border-color: gray;
+}
+
+.border-color-yellow {
+  border-color: yellow;
+}
+
+// Border Width Utilities
+.border-width-1 {
+  border-width: 1px;
+}
+
+.border-width-2 {
+  border-width: 2px;
+}
+
+.border-width-3 {
+  border-width: 3px;
+}
+
+.border-width-0 {
+  border-width: 0;
+}
+
+// Border Radius Utilities
+.border-radius-sm {
+  border-radius: variable.$border-radius-sm;
+}
+
+.border-radius-md {
+  border-radius: variable.$border-radius-md;
+}
+
+.border-radius-lg {
+  border-radius: variable.$border-radius-lg;
+}
+
+.border-radius-none {
+  border-radius: 0;
+}
+
+// Border Style Utilities
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}

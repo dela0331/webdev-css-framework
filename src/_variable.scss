@@ -30,7 +30,9 @@ $margin-space-small: 20px;
 $margin-space-medium: 40px;
 $margin-space-large: 60px;
 
-//Border
+@use 'sass:color';
+
+// Border Variables
 $border-default-color: #333;
 $border-dashed-color: #aaa;
 $border-width: 1px;
@@ -41,12 +43,13 @@ $border-radius-sm: 2px;
 $border-radius-md: 8px;
 $border-radius-lg: 12px;
 
-//Input
+// Input Variables
 $input-bg-color: #fff;
 $input-border-color: #000;
-$input-focus-border: darken($input-border-color, 15%);
-$input-hover-border: lighten($input-border-color, 10%);
+$input-focus-border: color.adjust($input-border-color, $lightness: -15%);
+$input-hover-border: color.adjust($input-border-color, $lightness: 10%);
 $input-border-radius: 5px;
 $input-font-size: 16px;
 $input-padding: 10px;
 $input-full-width: 100%;
+
